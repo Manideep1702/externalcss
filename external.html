@@ -1,0 +1,130 @@
+<!-- portfolio.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <section class="portfolio">
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Description of project 1.</p>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Description of project 2.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+<!-- feedback.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+    </header>
+    <section class="feedback-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Feedback:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+</body>
+</html>
+
+/* portfolio.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e3f2fd;
+    color: #333;
+}
+header {
+    background: #1e88e5;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.portfolio {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.project {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+/* feedback.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f8e9;
+    color: #333;
+}
+header {
+    background: #388e3c;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+.feedback-form {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+input, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background: #388e3c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+button:hover {
+    background: #2e7d32;
+}
